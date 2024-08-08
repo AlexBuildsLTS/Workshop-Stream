@@ -62,13 +62,15 @@ public class Person implements Serializable {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Person{");
-        sb.append("personId=").append(personId);
-        sb.append(", firstName='").append(firstName).append('\'');
-        sb.append(", lastName='").append(lastName).append('\'');
-        sb.append(", dateOfBirth=").append(dateOfBirth);
-        sb.append(", gender=").append(gender);
-        sb.append('}');
-        return sb.toString();
+        String sb = "Person{" + "personId=" + personId +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", gender=" + gender +
+                '}';
+        return sb;
+    }
+
+    public String getId() {
     }
 }

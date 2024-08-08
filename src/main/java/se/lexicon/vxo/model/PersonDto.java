@@ -2,8 +2,8 @@ package se.lexicon.vxo.model;
 
 public class PersonDto {
 
-    private int personId;
-    private String fullName;
+    private final int personId;
+    private final String fullName;
 
     public PersonDto(int personId, String fullName) {
         this.personId = personId;

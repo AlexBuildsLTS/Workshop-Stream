@@ -21,7 +21,7 @@ public class PeopleImpl implements People {
         return INSTANCE;
     }
 
-    private List<Person> people;
+    private final List<Person> people;
 
     private PeopleImpl(){
         people = JsonReader.getInstance().read();
