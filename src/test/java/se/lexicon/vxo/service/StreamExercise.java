@@ -168,7 +168,7 @@ public class StreamExercise {
 
     /**
      * In a Stream Filter out one person with id 5914 from people and take the birthdate and build a string from data that the date contains then
-     * return the string.
+     * return the strin
      */
     @Test
     public void task10(){
